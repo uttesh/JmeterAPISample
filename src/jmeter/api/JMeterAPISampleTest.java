@@ -45,7 +45,7 @@ public class JMeterAPISampleTest {
                 // JMeter Test Plan, basically JOrphan HashTree
                 HashTree testPlanTree = new HashTree();
 
-                // First HTTP Sampler - open example.com
+                // First HTTP Sampler - open uttesh.com
                 HTTPSamplerProxy examplecomSampler = new HTTPSamplerProxy();
                 examplecomSampler.setDomain("uttesh.com");
                 examplecomSampler.setPort(80);
